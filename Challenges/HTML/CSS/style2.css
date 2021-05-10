@@ -1,0 +1,212 @@
+.astyle
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display:inline-block;
+}
+
+
+
+body
+{
+    margin:0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn1 {
+    background: #00bd8e;
+    background-image: -webkit-linear-gradient(top, #00bd8e, #00bd8e);
+    background-image: -moz-linear-gradient(top, #00bd8e, #00bd8e);
+    background-image: -ms-linear-gradient(top, #00bd8e, #00bd8e);
+    background-image: -o-linear-gradient(top, #00bd8e, #00bd8e);
+    background-image: linear-gradient(to bottom, #00bd8e, #00bd8e);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    border: solid #00bd8e 4px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: #039974;
+    background-image: -webkit-linear-gradient(top, #039974, #00bd8e);
+    background-image: -moz-linear-gradient(top, #039974, #00bd8e);
+    background-image: -ms-linear-gradient(top, #039974, #00bd8e);
+    background-image: -o-linear-gradient(top, #039974, #00bd8e);
+    background-image: linear-gradient(to bottom, #039974, #00bd8e);
+    text-decoration: none;
+  }
+
+.btn-hov
+{
+
+}
+.center
+{
+    background-image :linear-gradient(to right, rgba(0, 21, 16, 0.52), rgba(0, 191, 143, 0.73)),url("https://carspot.scriptsbundle.com/bikes/wp-content/uploads/sites/16/2017/07/banner_gsxr1000-desktop_1920x620-1.jpg");
+    height: 460px;
+    background-size: cover;
+    color: white;
+    padding: 0px;
+
+}
+.whitebg
+{
+    background-color: #fff;
+}
+
+.form-select.form-select-lg.mb-3
+{
+    color: white !important;
+    background-color: #fff !important;
+    border-radius:0px;
+    
+}
+.form-search
+{
+    width: 1000px;
+    height: 105px;
+    padding: 30px 30px 30px 30px;
+    background: #000;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+.input-group
+{
+    border-radius: 0% !important;
+
+}
+
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px #fff !important;
+    height: 48px;
+    padding: 14px !important;
+    font-size: 14px !important;
+    width: 24px;
+    margin-top: 0.5;
+    margin-top: 0px;
+
+}
+
+.banner-icon-search {
+    background: #fff url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-vector-search-icon-png-image_3783210.jpg) no-repeat scroll 97% 15px / 21px 21px;
+}
+.margin
+{
+    margin: 0 47.85px 0 47.852px;
+    height: 38px;
+    position: relative;
+}
+
+/*
+.margin-menu
+{
+    margin: 0 116.85px 0 116.852px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    height: 90px;
+}
+*/
+.menu
+{
+    height: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    margin: 0 47.85px 0 47.852px;
+}
+
+.navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll li a
+{
+    color: #001510;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.navbar.navbar-expand-lg.navbar-light 
+{
+    padding-top: 0px    ;
+}
+.pos1
+{
+    position: relative;
+    left: 888px;
+    padding: 10px;
+}
+
+.pos2
+{
+    position:relative;
+    left: 883px;
+    padding: 10px;
+}
+
+.class
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 50px;
+}
+
+.icon {
+    background: #fff url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-vector-search-icon-png-image_3783210.jpg) no-repeat scroll 97% 15px / 21px 21px;
+    float: left;
+    width: 10px;
+    height: 40px;
+}
+
+.Top
+{
+    height: 38px;
+    background: linear-gradient(to right,#001510,#00bf8f);
+    margin: 0px;
+
+}
+
+.text
+{
+    width: 1000px;
+    height: 300px;
+    padding: 0px 70px 0px 70px;
+    text-align: center;
+    position: relative;
+    top: 177px;
+    left: 137px;
+}
+
+.theme1
+{
+    width: 100%;
+    height: 48px;
+}
+
+h1
+{
+    font-family: 'Poppins';
+    line-height: 1.6rem !important;
+    font-size: 42px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+p
+{
+    font-size: 23px;
+    line-height: 5.8rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    
+}
