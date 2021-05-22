@@ -12,12 +12,7 @@
     --fw-normal : 400;
     --fw-bold : 700;
     --fw-black :900;
-    --grid: minmax(1em, 10%)
-            minmax(10rem, 22ch) 
-            minmax(10rem, 23ch)
-            minmax(1em, 3fr)
-            max-content 
-            ;
+    
 }
 
 body
@@ -175,7 +170,7 @@ h1
     .main
     {
         display: grid;
-        grid-template-columns: var(--grid)
+        grid-template-columns: 45px 400px 400px max-content;
         justify-content:start;
     }
     .btn
@@ -205,7 +200,7 @@ h1
     .header-div
     {
         display: grid;
-        grid-template-columns: var(--grid)
+        grid-template-columns: 45px 400px 400px max-content;
     }
     .weather
     {

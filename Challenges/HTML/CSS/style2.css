@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
 .astyle
 {
     text-decoration: none;
@@ -202,11 +210,161 @@ h1
     margin-bottom: 20px;
 }
 
-p
+/* p
 {
     font-size: 23px;
     line-height: 5.8rem;
     margin-bottom: 10px;
     font-weight: 400;
     
+} */
+
+/* Menue */
+
+.menue
+{
+    padding: 90px 0 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+.head-text
+{
+    font-weight: 650;
+    font-size: 1.9rem;
+    margin-bottom: 44px;
+}
+
+.head-text::before
+{
+    content: '';
+    position: absolute;
+    height: 0.5px;
+    width: 9%;
+    background-color: black;
+    bottom: 46px;
+    text-align: center;
+    right: 570px;
+}
+
+.head-text::after
+{
+    content: '';
+    position: absolute;
+    height: 0.5px;
+    width: 6%;
+    background-color: black;
+    bottom: 39px;
+    text-align: center;
+    right: 588px;
+}
+
+h2 span
+{
+    color: #00bf8f;
+}
+
+.sub-text
+{
+    color:rgba(0, 21, 16,0.5);
+    font-size: 1rem;
+}
+
+.menue-heading
+{
+    position: relative;
+}
+
+
+/* Sell-box */
+
+.sell-box
+{
+    /* padding-top: 70px; */
+    /* width: 1140px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    min-width: 0;
+    min-height: 0;
+    
+}
+
+.image-bike1
+{
+    position: relative;
+    margin-bottom: -56px;
+    left: -55px;
+}
+.image-bike1 img
+{
+    width: 128%;
+    position: relative;
+}
+
+.first-pitch
+{
+    padding:0px 10px;
+    background-color: #f6f6f6;
+}
+
+.sec-pitch
+{
+    padding:0px 10px;
+    background-color: #f0f2f5;
+}
+
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* width: 1140px; */
+}
+
+.pad
+{
+    padding:70px 130px 0px 130px;
+}
+
+.text-pitch h5
+{
+    font-weight: 400;
+    font-size: 1.18rem;
+}
+.text-pitch p
+{
+    margin-top: 1px;
+    color: rgba(0, 0, 0, 0.445);
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+
+
+/* Sell Cards */
+
+.sell-cards
+{
+    margin-top: 3rem;
+    
+    position: relative;
+    padding: 70px 0 60px 0;
+}
+
+.sell-cards .menue-heading
+{
+    text-align: center;
+}
+.custom-marging
+{
+    margin-left: 50px;
+    margin-right: 50px;
 }
